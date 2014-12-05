@@ -1,0 +1,2 @@
+#!/bin/bash
+java -splash:"./EditorDeProyectos/src/interfaz/resources/splash.jpg" -jar "./EditorDeProyectos/dist/EditorDeProyectos.jar"
