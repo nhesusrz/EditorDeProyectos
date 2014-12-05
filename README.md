@@ -1,2 +1,3 @@
-EditorDeProyectos
+Tool for Projects Planning with Resource Leveling
 =================
+The project planning is part of project management. This is based on the use of schedules to plan activities that will make up the project as well as the degree of utilization of the resources available to it. This makes use of one of the most widely used tools, such as the critical path for the realization of single projects can identify with good precision the project duration, times in which events occur or perform various tasks. In this paper, a tool for editing mono project is presented. We tested the performance of it with examples of small planning using diagrams and algorithm (Manpower Allocation Procedure) for uniform resource leveling can not be combined.
