@@ -1,0 +1,4 @@
+(NO SE puede modificar la duración de la actividad, puesto que no podria ver cuanto se me dilato el tiempo para algunas actividades. Ver ejemplo de la filimina de la teoria 2009)- Cambiar la duracion de las actividades de acuerdo al cambio realizado en las fechas de los sucesos por el algoritmo MAP. (Importante) Ya que sino no se puede guardar los cambios.
+- pintar algunas filas de la tabla.
+- Ver tema de la leyenda que ahora no se porque no se ve en el grafico de barras.
+- Ver el tema de los ports que no se borran algunos

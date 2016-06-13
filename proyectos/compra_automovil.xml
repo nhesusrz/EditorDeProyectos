@@ -1,0 +1,664 @@
+<proyecto.Proyecto>
+  <nombre>Compra de automovil nuevo</nombre>
+  <responsable>Martín I. Pacheco</responsable>
+  <red>
+    <actividades>
+      <entry>
+        <int>23</int>
+        <proyecto.Ficticia>
+          <identificador>23</identificador>
+          <descripcion>Ficticia</descripcion>
+          <s__origen>
+            <red reference="../../../../.."/>
+            <identificador>17</identificador>
+            <Ft>0</Ft>
+            <FT>2147483647</FT>
+            <actividades__entrantes>
+              <proyecto.Concreta>
+                <identificador>19</identificador>
+                <descripcion>Haga una nueva prueba de manejo con el automóvil elegido</descripcion>
+                <s__origen>
+                  <red reference="../../../../../../../.."/>
+                  <identificador>16</identificador>
+                  <Ft>0</Ft>
+                  <FT>2147483647</FT>
+                  <actividades__entrantes>
+                    <proyecto.Concreta>
+                      <identificador>18</identificador>
+                      <descripcion>Busque el color deseado</descripcion>
+                      <s__origen>
+                        <red reference="../../../../../../../../../../.."/>
+                        <identificador>15</identificador>
+                        <Ft>0</Ft>
+                        <FT>2147483647</FT>
+                        <actividades__entrantes>
+                          <proyecto.Concreta>
+                            <identificador>17</identificador>
+                            <descripcion>Elija un distribuidor</descripcion>
+                            <s__origen>
+                              <red reference="../../../../../../../../../../../../../.."/>
+                              <identificador>14</identificador>
+                              <Ft>0</Ft>
+                              <FT>2147483647</FT>
+                              <actividades__entrantes>
+                                <proyecto.Concreta>
+                                  <identificador>16</identificador>
+                                  <descripcion>Elija un automóvil</descripcion>
+                                  <s__origen>
+                                    <red reference="../../../../../../../../../../../../../../../../.."/>
+                                    <identificador>13</identificador>
+                                    <Ft>0</Ft>
+                                    <FT>2147483647</FT>
+                                    <actividades__entrantes>
+                                      <proyecto.Ficticia>
+                                        <identificador>14</identificador>
+                                        <descripcion>Ficticia</descripcion>
+                                        <s__origen>
+                                          <red reference="../../../../../../../../../../../../../../../../../../../.."/>
+                                          <identificador>11</identificador>
+                                          <Ft>0</Ft>
+                                          <FT>2147483647</FT>
+                                          <actividades__entrantes>
+                                            <proyecto.Concreta>
+                                              <identificador>12</identificador>
+                                              <descripcion>Haga una prueba de manejo con las tres elecciones</descripcion>
+                                              <s__origen>
+                                                <red reference="../../../../../../../../../../../../../../../../../../../../../../.."/>
+                                                <identificador>10</identificador>
+                                                <Ft>0</Ft>
+                                                <FT>2147483647</FT>
+                                                <actividades__entrantes>
+                                                  <proyecto.Concreta>
+                                                    <identificador>11</identificador>
+                                                    <descripcion>Elija los tres mejores modelos</descripcion>
+                                                    <s__origen>
+                                                      <red reference="../../../../../../../../../../../../../../../../../../../../../../../../../.."/>
+                                                      <identificador>9</identificador>
+                                                      <Ft>0</Ft>
+                                                      <FT>2147483647</FT>
+                                                      <actividades__entrantes>
+                                                        <proyecto.Concreta>
+                                                          <identificador>10</identificador>
+                                                          <descripcion>Recopile los datos pertinentes</descripcion>
+                                                          <s__origen>
+                                                            <red reference="../../../../../../../../../../../../../../../../../../../../../../../../../../../../.."/>
+                                                            <identificador>8</identificador>
+                                                            <Ft>0</Ft>
+                                                            <FT>2147483647</FT>
+                                                            <actividades__entrantes>
+                                                              <proyecto.Ficticia>
+                                                                <identificador>7</identificador>
+                                                                <descripcion>Ficticia</descripcion>
+                                                                <s__origen>
+                                                                  <red reference="../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../.."/>
+                                                                  <identificador>5</identificador>
+                                                                  <Ft>0</Ft>
+                                                                  <FT>2147483647</FT>
+                                                                  <actividades__entrantes>
+                                                                    <proyecto.Concreta>
+                                                                      <identificador>4</identificador>
+                                                                      <descripcion>Investigue todos los modelos posibles</descripcion>
+                                                                      <s__origen>
+                                                                        <red reference="../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../.."/>
+                                                                        <identificador>4</identificador>
+                                                                        <Ft>0</Ft>
+                                                                        <FT>2147483647</FT>
+                                                                        <actividades__entrantes>
+                                                                          <proyecto.Concreta>
+                                                                            <identificador>3</identificador>
+                                                                            <descripcion>Haga una lista de los posibles modelos</descripcion>
+                                                                            <s__origen>
+                                                                              <red reference="../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../.."/>
+                                                                              <identificador>2</identificador>
+                                                                              <Ft>0</Ft>
+                                                                              <FT>2147483647</FT>
+                                                                              <actividades__entrantes>
+                                                                                <proyecto.Concreta>
+                                                                                  <identificador>1</identificador>
+                                                                                  <descripcion>Realice un estudio de factibilidad</descripcion>
+                                                                                  <s__origen>
+                                                                                    <red reference="../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../.."/>
+                                                                                    <identificador>1</identificador>
+                                                                                    <Ft>0</Ft>
+                                                                                    <FT>2147483647</FT>
+                                                                                    <actividades__entrantes/>
+                                                                                    <actividades__salientes>
+                                                                                      <proyecto.Concreta reference="../../.."/>
+                                                                                    </actividades__salientes>
+                                                                                  </s__origen>
+                                                                                  <s__fin reference="../../.."/>
+                                                                                  <parametros__normales>
+                                                                                    <tiempo>3</tiempo>
+                                                                                    <valor>0</valor>
+                                                                                  </parametros__normales>
+                                                                                  <parametros__aceleracion>
+                                                                                    <tiempo>-1</tiempo>
+                                                                                    <valor>-1</valor>
+                                                                                  </parametros__aceleracion>
+                                                                                </proyecto.Concreta>
+                                                                              </actividades__entrantes>
+                                                                              <actividades__salientes>
+                                                                                <proyecto.Concreta>
+                                                                                  <identificador>2</identificador>
+                                                                                  <descripcion>Encuentre un comprador potencial para el automóvil actual</descripcion>
+                                                                                  <s__origen reference="../../.."/>
+                                                                                  <s__fin>
+                                                                                    <red reference="../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../.."/>
+                                                                                    <identificador>3</identificador>
+                                                                                    <Ft>0</Ft>
+                                                                                    <FT>2147483647</FT>
+                                                                                    <actividades__entrantes>
+                                                                                      <proyecto.Concreta reference="../../.."/>
+                                                                                    </actividades__entrantes>
+                                                                                    <actividades__salientes>
+                                                                                      <proyecto.Ficticia>
+                                                                                        <identificador>21</identificador>
+                                                                                        <descripcion>Ficticia</descripcion>
+                                                                                        <s__origen reference="../../.."/>
+                                                                                        <s__fin>
+                                                                                          <red reference="../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../.."/>
+                                                                                          <identificador>18</identificador>
+                                                                                          <Ft>0</Ft>
+                                                                                          <FT>2147483647</FT>
+                                                                                          <actividades__entrantes>
+                                                                                            <proyecto.Ficticia reference="../../.."/>
+                                                                                            <proyecto.Ficticia>
+                                                                                              <identificador>22</identificador>
+                                                                                              <descripcion>Ficticia</descripcion>
+                                                                                              <s__origen reference="../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../.."/>
+                                                                                              <s__fin reference="../../.."/>
+                                                                                              <parametros__normales>
+                                                                                                <tiempo>0</tiempo>
+                                                                                                <valor>0</valor>
+                                                                                              </parametros__normales>
+                                                                                            </proyecto.Ficticia>
+                                                                                            <proyecto.Ficticia reference="../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../.."/>
+                                                                                          </actividades__entrantes>
+                                                                                          <actividades__salientes>
+                                                                                            <proyecto.Concreta>
+                                                                                              <identificador>20</identificador>
+                                                                                              <descripcion>Compre el automóvil</descripcion>
+                                                                                              <s__origen reference="../../.."/>
+                                                                                              <s__fin>
+                                                                                                <red reference="../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../.."/>
+                                                                                                <identificador>19</identificador>
+                                                                                                <Ft>0</Ft>
+                                                                                                <FT>2147483647</FT>
+                                                                                                <actividades__entrantes>
+                                                                                                  <proyecto.Concreta reference="../../.."/>
+                                                                                                </actividades__entrantes>
+                                                                                                <actividades__salientes/>
+                                                                                              </s__fin>
+                                                                                              <parametros__normales>
+                                                                                                <tiempo>3</tiempo>
+                                                                                                <valor>0</valor>
+                                                                                              </parametros__normales>
+                                                                                              <parametros__aceleracion>
+                                                                                                <tiempo>-1</tiempo>
+                                                                                                <valor>-1</valor>
+                                                                                              </parametros__aceleracion>
+                                                                                            </proyecto.Concreta>
+                                                                                          </actividades__salientes>
+                                                                                        </s__fin>
+                                                                                        <parametros__normales>
+                                                                                          <tiempo>0</tiempo>
+                                                                                          <valor>0</valor>
+                                                                                        </parametros__normales>
+                                                                                      </proyecto.Ficticia>
+                                                                                    </actividades__salientes>
+                                                                                  </s__fin>
+                                                                                  <parametros__normales>
+                                                                                    <tiempo>14</tiempo>
+                                                                                    <valor>0</valor>
+                                                                                  </parametros__normales>
+                                                                                  <parametros__aceleracion>
+                                                                                    <tiempo>-1</tiempo>
+                                                                                    <valor>-1</valor>
+                                                                                  </parametros__aceleracion>
+                                                                                </proyecto.Concreta>
+                                                                                <proyecto.Concreta reference="../../.."/>
+                                                                              </actividades__salientes>
+                                                                            </s__origen>
+                                                                            <s__fin reference="../../.."/>
+                                                                            <parametros__normales>
+                                                                              <tiempo>1</tiempo>
+                                                                              <valor>0</valor>
+                                                                            </parametros__normales>
+                                                                            <parametros__aceleracion>
+                                                                              <tiempo>-1</tiempo>
+                                                                              <valor>-1</valor>
+                                                                            </parametros__aceleracion>
+                                                                          </proyecto.Concreta>
+                                                                        </actividades__entrantes>
+                                                                        <actividades__salientes>
+                                                                          <proyecto.Concreta reference="../../.."/>
+                                                                          <proyecto.Concreta>
+                                                                            <identificador>5</identificador>
+                                                                            <descripcion>Lleve a cabo una entrevista con el mecánico</descripcion>
+                                                                            <s__origen reference="../../.."/>
+                                                                            <s__fin>
+                                                                              <red reference="../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../.."/>
+                                                                              <identificador>6</identificador>
+                                                                              <Ft>0</Ft>
+                                                                              <FT>2147483647</FT>
+                                                                              <actividades__entrantes>
+                                                                                <proyecto.Concreta reference="../../.."/>
+                                                                              </actividades__entrantes>
+                                                                              <actividades__salientes>
+                                                                                <proyecto.Ficticia>
+                                                                                  <identificador>8</identificador>
+                                                                                  <descripcion>Ficticia</descripcion>
+                                                                                  <s__origen reference="../../.."/>
+                                                                                  <s__fin reference="../../../../../../../../../../../.."/>
+                                                                                  <parametros__normales>
+                                                                                    <tiempo>0</tiempo>
+                                                                                    <valor>0</valor>
+                                                                                  </parametros__normales>
+                                                                                </proyecto.Ficticia>
+                                                                              </actividades__salientes>
+                                                                            </s__fin>
+                                                                            <parametros__normales>
+                                                                              <tiempo>1</tiempo>
+                                                                              <valor>0</valor>
+                                                                            </parametros__normales>
+                                                                            <parametros__aceleracion>
+                                                                              <tiempo>-1</tiempo>
+                                                                              <valor>-1</valor>
+                                                                            </parametros__aceleracion>
+                                                                          </proyecto.Concreta>
+                                                                          <proyecto.Concreta>
+                                                                            <identificador>6</identificador>
+                                                                            <descripcion>Recopile propaganda del distribuidor</descripcion>
+                                                                            <s__origen reference="../../.."/>
+                                                                            <s__fin>
+                                                                              <red reference="../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../.."/>
+                                                                              <identificador>7</identificador>
+                                                                              <Ft>0</Ft>
+                                                                              <FT>2147483647</FT>
+                                                                              <actividades__entrantes>
+                                                                                <proyecto.Concreta reference="../../.."/>
+                                                                              </actividades__entrantes>
+                                                                              <actividades__salientes>
+                                                                                <proyecto.Ficticia>
+                                                                                  <identificador>9</identificador>
+                                                                                  <descripcion>Ficticia</descripcion>
+                                                                                  <s__origen reference="../../.."/>
+                                                                                  <s__fin reference="../../../../../../../../../../../.."/>
+                                                                                  <parametros__normales>
+                                                                                    <tiempo>0</tiempo>
+                                                                                    <valor>0</valor>
+                                                                                  </parametros__normales>
+                                                                                </proyecto.Ficticia>
+                                                                              </actividades__salientes>
+                                                                            </s__fin>
+                                                                            <parametros__normales>
+                                                                              <tiempo>2</tiempo>
+                                                                              <valor>0</valor>
+                                                                            </parametros__normales>
+                                                                            <parametros__aceleracion>
+                                                                              <tiempo>-1</tiempo>
+                                                                              <valor>-1</valor>
+                                                                            </parametros__aceleracion>
+                                                                          </proyecto.Concreta>
+                                                                        </actividades__salientes>
+                                                                      </s__origen>
+                                                                      <s__fin reference="../../.."/>
+                                                                      <parametros__normales>
+                                                                        <tiempo>3</tiempo>
+                                                                        <valor>0</valor>
+                                                                      </parametros__normales>
+                                                                      <parametros__aceleracion>
+                                                                        <tiempo>-1</tiempo>
+                                                                        <valor>-1</valor>
+                                                                      </parametros__aceleracion>
+                                                                    </proyecto.Concreta>
+                                                                  </actividades__entrantes>
+                                                                  <actividades__salientes>
+                                                                    <proyecto.Ficticia reference="../../.."/>
+                                                                  </actividades__salientes>
+                                                                </s__origen>
+                                                                <s__fin reference="../../.."/>
+                                                                <parametros__normales>
+                                                                  <tiempo>0</tiempo>
+                                                                  <valor>0</valor>
+                                                                </parametros__normales>
+                                                              </proyecto.Ficticia>
+                                                              <proyecto.Ficticia reference="../proyecto.Ficticia/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__salientes/proyecto.Concreta[2]/s__fin/actividades__salientes/proyecto.Ficticia"/>
+                                                              <proyecto.Ficticia reference="../proyecto.Ficticia/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__salientes/proyecto.Concreta[3]/s__fin/actividades__salientes/proyecto.Ficticia"/>
+                                                            </actividades__entrantes>
+                                                            <actividades__salientes>
+                                                              <proyecto.Concreta reference="../../.."/>
+                                                            </actividades__salientes>
+                                                          </s__origen>
+                                                          <s__fin reference="../../.."/>
+                                                          <parametros__normales>
+                                                            <tiempo>1</tiempo>
+                                                            <valor>0</valor>
+                                                          </parametros__normales>
+                                                          <parametros__aceleracion>
+                                                            <tiempo>-1</tiempo>
+                                                            <valor>-1</valor>
+                                                          </parametros__aceleracion>
+                                                        </proyecto.Concreta>
+                                                      </actividades__entrantes>
+                                                      <actividades__salientes>
+                                                        <proyecto.Concreta reference="../../.."/>
+                                                      </actividades__salientes>
+                                                    </s__origen>
+                                                    <s__fin reference="../../.."/>
+                                                    <parametros__normales>
+                                                      <tiempo>1</tiempo>
+                                                      <valor>0</valor>
+                                                    </parametros__normales>
+                                                    <parametros__aceleracion>
+                                                      <tiempo>-1</tiempo>
+                                                      <valor>-1</valor>
+                                                    </parametros__aceleracion>
+                                                  </proyecto.Concreta>
+                                                </actividades__entrantes>
+                                                <actividades__salientes>
+                                                  <proyecto.Concreta reference="../../.."/>
+                                                  <proyecto.Concreta>
+                                                    <identificador>13</identificador>
+                                                    <descripcion>Reuna datos de la garantia y financieros</descripcion>
+                                                    <s__origen reference="../../.."/>
+                                                    <s__fin>
+                                                      <red reference="../../../../../../../../../../../../../../../../../../../../../../../../../.."/>
+                                                      <identificador>12</identificador>
+                                                      <Ft>0</Ft>
+                                                      <FT>2147483647</FT>
+                                                      <actividades__entrantes>
+                                                        <proyecto.Concreta reference="../../.."/>
+                                                      </actividades__entrantes>
+                                                      <actividades__salientes>
+                                                        <proyecto.Ficticia>
+                                                          <identificador>15</identificador>
+                                                          <descripcion>Ficticia</descripcion>
+                                                          <s__origen reference="../../.."/>
+                                                          <s__fin reference="../../../../../../../../../../../.."/>
+                                                          <parametros__normales>
+                                                            <tiempo>0</tiempo>
+                                                            <valor>0</valor>
+                                                          </parametros__normales>
+                                                        </proyecto.Ficticia>
+                                                      </actividades__salientes>
+                                                    </s__fin>
+                                                    <parametros__normales>
+                                                      <tiempo>2</tiempo>
+                                                      <valor>0</valor>
+                                                    </parametros__normales>
+                                                    <parametros__aceleracion>
+                                                      <tiempo>-1</tiempo>
+                                                      <valor>-1</valor>
+                                                    </parametros__aceleracion>
+                                                  </proyecto.Concreta>
+                                                </actividades__salientes>
+                                              </s__origen>
+                                              <s__fin reference="../../.."/>
+                                              <parametros__normales>
+                                                <tiempo>3</tiempo>
+                                                <valor>0</valor>
+                                              </parametros__normales>
+                                              <parametros__aceleracion>
+                                                <tiempo>-1</tiempo>
+                                                <valor>-1</valor>
+                                              </parametros__aceleracion>
+                                            </proyecto.Concreta>
+                                          </actividades__entrantes>
+                                          <actividades__salientes>
+                                            <proyecto.Ficticia reference="../../.."/>
+                                          </actividades__salientes>
+                                        </s__origen>
+                                        <s__fin reference="../../.."/>
+                                        <parametros__normales>
+                                          <tiempo>0</tiempo>
+                                          <valor>0</valor>
+                                        </parametros__normales>
+                                      </proyecto.Ficticia>
+                                      <proyecto.Ficticia reference="../proyecto.Ficticia/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__salientes/proyecto.Concreta[2]/s__fin/actividades__salientes/proyecto.Ficticia"/>
+                                    </actividades__entrantes>
+                                    <actividades__salientes>
+                                      <proyecto.Concreta reference="../../.."/>
+                                    </actividades__salientes>
+                                  </s__origen>
+                                  <s__fin reference="../../.."/>
+                                  <parametros__normales>
+                                    <tiempo>2</tiempo>
+                                    <valor>0</valor>
+                                  </parametros__normales>
+                                  <parametros__aceleracion>
+                                    <tiempo>-1</tiempo>
+                                    <valor>-1</valor>
+                                  </parametros__aceleracion>
+                                </proyecto.Concreta>
+                              </actividades__entrantes>
+                              <actividades__salientes>
+                                <proyecto.Concreta reference="../../.."/>
+                              </actividades__salientes>
+                            </s__origen>
+                            <s__fin reference="../../.."/>
+                            <parametros__normales>
+                              <tiempo>2</tiempo>
+                              <valor>0</valor>
+                            </parametros__normales>
+                            <parametros__aceleracion>
+                              <tiempo>-1</tiempo>
+                              <valor>-1</valor>
+                            </parametros__aceleracion>
+                          </proyecto.Concreta>
+                        </actividades__entrantes>
+                        <actividades__salientes>
+                          <proyecto.Concreta reference="../../.."/>
+                        </actividades__salientes>
+                      </s__origen>
+                      <s__fin reference="../../.."/>
+                      <parametros__normales>
+                        <tiempo>4</tiempo>
+                        <valor>0</valor>
+                      </parametros__normales>
+                      <parametros__aceleracion>
+                        <tiempo>-1</tiempo>
+                        <valor>-1</valor>
+                      </parametros__aceleracion>
+                    </proyecto.Concreta>
+                  </actividades__entrantes>
+                  <actividades__salientes>
+                    <proyecto.Concreta reference="../../.."/>
+                    <proyecto.Ficticia reference="../../actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Ficticia/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Ficticia/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__salientes/proyecto.Concreta/s__fin/actividades__salientes/proyecto.Ficticia/s__fin/actividades__entrantes/proyecto.Ficticia[2]"/>
+                  </actividades__salientes>
+                </s__origen>
+                <s__fin reference="../../.."/>
+                <parametros__normales>
+                  <tiempo>1</tiempo>
+                  <valor>0</valor>
+                </parametros__normales>
+                <parametros__aceleracion>
+                  <tiempo>-1</tiempo>
+                  <valor>-1</valor>
+                </parametros__aceleracion>
+              </proyecto.Concreta>
+            </actividades__entrantes>
+            <actividades__salientes>
+              <proyecto.Ficticia reference="../../.."/>
+            </actividades__salientes>
+          </s__origen>
+          <s__fin reference="../s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Ficticia/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Ficticia/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__salientes/proyecto.Concreta/s__fin/actividades__salientes/proyecto.Ficticia/s__fin"/>
+          <parametros__normales>
+            <tiempo>0</tiempo>
+            <valor>0</valor>
+          </parametros__normales>
+        </proyecto.Ficticia>
+      </entry>
+      <entry>
+        <int>22</int>
+        <proyecto.Ficticia reference="../../entry/proyecto.Ficticia/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Ficticia/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Ficticia/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__salientes/proyecto.Concreta/s__fin/actividades__salientes/proyecto.Ficticia/s__fin/actividades__entrantes/proyecto.Ficticia[2]"/>
+      </entry>
+      <entry>
+        <int>21</int>
+        <proyecto.Ficticia reference="../../entry/proyecto.Ficticia/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Ficticia/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Ficticia/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__salientes/proyecto.Concreta/s__fin/actividades__salientes/proyecto.Ficticia"/>
+      </entry>
+      <entry>
+        <int>20</int>
+        <proyecto.Concreta reference="../../entry/proyecto.Ficticia/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Ficticia/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Ficticia/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__salientes/proyecto.Concreta/s__fin/actividades__salientes/proyecto.Ficticia/s__fin/actividades__salientes/proyecto.Concreta"/>
+      </entry>
+      <entry>
+        <int>19</int>
+        <proyecto.Concreta reference="../../entry/proyecto.Ficticia/s__origen/actividades__entrantes/proyecto.Concreta"/>
+      </entry>
+      <entry>
+        <int>18</int>
+        <proyecto.Concreta reference="../../entry/proyecto.Ficticia/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta"/>
+      </entry>
+      <entry>
+        <int>17</int>
+        <proyecto.Concreta reference="../../entry/proyecto.Ficticia/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta"/>
+      </entry>
+      <entry>
+        <int>16</int>
+        <proyecto.Concreta reference="../../entry/proyecto.Ficticia/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta"/>
+      </entry>
+      <entry>
+        <int>15</int>
+        <proyecto.Ficticia reference="../../entry/proyecto.Ficticia/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Ficticia/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__salientes/proyecto.Concreta[2]/s__fin/actividades__salientes/proyecto.Ficticia"/>
+      </entry>
+      <entry>
+        <int>14</int>
+        <proyecto.Ficticia reference="../../entry/proyecto.Ficticia/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Ficticia"/>
+      </entry>
+      <entry>
+        <int>13</int>
+        <proyecto.Concreta reference="../../entry/proyecto.Ficticia/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Ficticia/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__salientes/proyecto.Concreta[2]"/>
+      </entry>
+      <entry>
+        <int>12</int>
+        <proyecto.Concreta reference="../../entry/proyecto.Ficticia/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Ficticia/s__origen/actividades__entrantes/proyecto.Concreta"/>
+      </entry>
+      <entry>
+        <int>11</int>
+        <proyecto.Concreta reference="../../entry/proyecto.Ficticia/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Ficticia/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta"/>
+      </entry>
+      <entry>
+        <int>10</int>
+        <proyecto.Concreta reference="../../entry/proyecto.Ficticia/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Ficticia/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta"/>
+      </entry>
+      <entry>
+        <int>9</int>
+        <proyecto.Ficticia reference="../../entry/proyecto.Ficticia/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Ficticia/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Ficticia/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__salientes/proyecto.Concreta[3]/s__fin/actividades__salientes/proyecto.Ficticia"/>
+      </entry>
+      <entry>
+        <int>8</int>
+        <proyecto.Ficticia reference="../../entry/proyecto.Ficticia/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Ficticia/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Ficticia/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__salientes/proyecto.Concreta[2]/s__fin/actividades__salientes/proyecto.Ficticia"/>
+      </entry>
+      <entry>
+        <int>7</int>
+        <proyecto.Ficticia reference="../../entry/proyecto.Ficticia/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Ficticia/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Ficticia"/>
+      </entry>
+      <entry>
+        <int>6</int>
+        <proyecto.Concreta reference="../../entry/proyecto.Ficticia/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Ficticia/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Ficticia/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__salientes/proyecto.Concreta[3]"/>
+      </entry>
+      <entry>
+        <int>5</int>
+        <proyecto.Concreta reference="../../entry/proyecto.Ficticia/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Ficticia/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Ficticia/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__salientes/proyecto.Concreta[2]"/>
+      </entry>
+      <entry>
+        <int>4</int>
+        <proyecto.Concreta reference="../../entry/proyecto.Ficticia/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Ficticia/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Ficticia/s__origen/actividades__entrantes/proyecto.Concreta"/>
+      </entry>
+      <entry>
+        <int>3</int>
+        <proyecto.Concreta reference="../../entry/proyecto.Ficticia/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Ficticia/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Ficticia/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta"/>
+      </entry>
+      <entry>
+        <int>2</int>
+        <proyecto.Concreta reference="../../entry/proyecto.Ficticia/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Ficticia/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Ficticia/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__salientes/proyecto.Concreta"/>
+      </entry>
+      <entry>
+        <int>1</int>
+        <proyecto.Concreta reference="../../entry/proyecto.Ficticia/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Ficticia/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Ficticia/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta"/>
+      </entry>
+    </actividades>
+    <sucesos>
+      <entry>
+        <int>19</int>
+        <proyecto.Suceso reference="../../../actividades/entry/proyecto.Ficticia/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Ficticia/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Ficticia/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__salientes/proyecto.Concreta/s__fin/actividades__salientes/proyecto.Ficticia/s__fin/actividades__salientes/proyecto.Concreta/s__fin"/>
+      </entry>
+      <entry>
+        <int>18</int>
+        <proyecto.Suceso reference="../../../actividades/entry/proyecto.Ficticia/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Ficticia/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Ficticia/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__salientes/proyecto.Concreta/s__fin/actividades__salientes/proyecto.Ficticia/s__fin"/>
+      </entry>
+      <entry>
+        <int>17</int>
+        <proyecto.Suceso reference="../../../actividades/entry/proyecto.Ficticia/s__origen"/>
+      </entry>
+      <entry>
+        <int>16</int>
+        <proyecto.Suceso reference="../../../actividades/entry/proyecto.Ficticia/s__origen/actividades__entrantes/proyecto.Concreta/s__origen"/>
+      </entry>
+      <entry>
+        <int>15</int>
+        <proyecto.Suceso reference="../../../actividades/entry/proyecto.Ficticia/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen"/>
+      </entry>
+      <entry>
+        <int>14</int>
+        <proyecto.Suceso reference="../../../actividades/entry/proyecto.Ficticia/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen"/>
+      </entry>
+      <entry>
+        <int>13</int>
+        <proyecto.Suceso reference="../../../actividades/entry/proyecto.Ficticia/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen"/>
+      </entry>
+      <entry>
+        <int>12</int>
+        <proyecto.Suceso reference="../../../actividades/entry/proyecto.Ficticia/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Ficticia/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__salientes/proyecto.Concreta[2]/s__fin"/>
+      </entry>
+      <entry>
+        <int>11</int>
+        <proyecto.Suceso reference="../../../actividades/entry/proyecto.Ficticia/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Ficticia/s__origen"/>
+      </entry>
+      <entry>
+        <int>10</int>
+        <proyecto.Suceso reference="../../../actividades/entry/proyecto.Ficticia/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Ficticia/s__origen/actividades__entrantes/proyecto.Concreta/s__origen"/>
+      </entry>
+      <entry>
+        <int>9</int>
+        <proyecto.Suceso reference="../../../actividades/entry/proyecto.Ficticia/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Ficticia/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen"/>
+      </entry>
+      <entry>
+        <int>8</int>
+        <proyecto.Suceso reference="../../../actividades/entry/proyecto.Ficticia/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Ficticia/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen"/>
+      </entry>
+      <entry>
+        <int>7</int>
+        <proyecto.Suceso reference="../../../actividades/entry/proyecto.Ficticia/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Ficticia/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Ficticia/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__salientes/proyecto.Concreta[3]/s__fin"/>
+      </entry>
+      <entry>
+        <int>6</int>
+        <proyecto.Suceso reference="../../../actividades/entry/proyecto.Ficticia/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Ficticia/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Ficticia/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__salientes/proyecto.Concreta[2]/s__fin"/>
+      </entry>
+      <entry>
+        <int>5</int>
+        <proyecto.Suceso reference="../../../actividades/entry/proyecto.Ficticia/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Ficticia/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Ficticia/s__origen"/>
+      </entry>
+      <entry>
+        <int>4</int>
+        <proyecto.Suceso reference="../../../actividades/entry/proyecto.Ficticia/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Ficticia/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Ficticia/s__origen/actividades__entrantes/proyecto.Concreta/s__origen"/>
+      </entry>
+      <entry>
+        <int>3</int>
+        <proyecto.Suceso reference="../../../actividades/entry/proyecto.Ficticia/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Ficticia/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Ficticia/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__salientes/proyecto.Concreta/s__fin"/>
+      </entry>
+      <entry>
+        <int>2</int>
+        <proyecto.Suceso reference="../../../actividades/entry/proyecto.Ficticia/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Ficticia/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Ficticia/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen"/>
+      </entry>
+      <entry>
+        <int>1</int>
+        <proyecto.Suceso reference="../../../actividades/entry/proyecto.Ficticia/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Ficticia/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Ficticia/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen"/>
+      </entry>
+    </sucesos>
+    <s__inicial reference="../actividades/entry/proyecto.Ficticia/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Ficticia/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Ficticia/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen"/>
+    <s__final reference="../actividades/entry/proyecto.Ficticia/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Ficticia/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Ficticia/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__entrantes/proyecto.Concreta/s__origen/actividades__salientes/proyecto.Concreta/s__fin/actividades__salientes/proyecto.Ficticia/s__fin/actividades__salientes/proyecto.Concreta/s__fin"/>
+    <cont__sucesos>20</cont__sucesos>
+    <cont__actividades>24</cont__actividades>
+  </red>
+</proyecto.Proyecto>
