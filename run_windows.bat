@@ -1,0 +1,1 @@
+java -splash:".\src\interfaz\resources\splash.jpg" -jar ".\dist\editor_proyectos.jar"

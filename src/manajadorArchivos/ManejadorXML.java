@@ -21,11 +21,13 @@
 package manajadorArchivos;
 
 import com.thoughtworks.xstream.XStream;
+import com.thoughtworks.xstream.io.xml.DomDriver;
 // import com.thoughtworks.xstream.io.xml.DomDriver;
 import java.io.BufferedOutputStream;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
+import java.io.InputStream;
 import java.util.Observable;
 
 public class ManejadorXML extends Observable{
@@ -46,16 +48,13 @@ public class ManejadorXML extends Observable{
     }
 
     public Object leerObjeto(File archivo){
-        // XStream xs = new XStream(new DomDriver()); Me daba error.
-        XStream xs = new XStream();
-        //xs.setMode(XStream.ID_REFERENCES);
+        XStream xs = new XStream(new DomDriver()); 
         try {
-            FileInputStream entrada= new FileInputStream(archivo.getAbsoluteFile());
+            FileInputStream entrada= new FileInputStream(archivo.getAbsoluteFile());            
             return xs.fromXML(entrada);
         }
         catch (Exception e) {
-            notificar("Error al leer el archivo " + archivo.toString());
-            e.printStackTrace();
+            notificar("Error al leer el archivo " + archivo.toString());           
         }
         return null;
     }

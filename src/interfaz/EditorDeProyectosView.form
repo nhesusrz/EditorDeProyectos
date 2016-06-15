@@ -11,9 +11,9 @@
       <Layout>
         <DimensionLayout dim="0">
           <Group type="103" groupAlignment="0" attributes="0">
-              <Component id="jToolBar1" alignment="0" pref="760" max="32767" attributes="0"/>
+              <Component id="jToolBar1" alignment="0" max="32767" attributes="0"/>
               <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
-              <Component id="jTabbedPane1" alignment="0" pref="760" max="32767" attributes="0"/>
+              <Component id="jTabbedPane1" alignment="0" max="32767" attributes="0"/>
           </Group>
         </DimensionLayout>
         <DimensionLayout dim="1">
@@ -50,7 +50,7 @@
           <Layout>
             <DimensionLayout dim="0">
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="jScrollPane1" alignment="0" pref="748" max="32767" attributes="0"/>
+                  <Component id="jScrollPane1" alignment="0" max="32767" attributes="0"/>
               </Group>
             </DimensionLayout>
             <DimensionLayout dim="1">
@@ -618,9 +618,13 @@
     </Container>
     <Component class="javax.swing.JFileChooser" name="jFileChooserAbrirGuardar">
       <Properties>
+        <Property name="currentDirectory" type="java.io.File" value="null"/>
         <Property name="font" type="java.awt.Font" resourceKey="jFileChooserAbrirGuardar.font"/>
         <Property name="name" type="java.lang.String" value="jFileChooserAbrirGuardar" noResource="true"/>
       </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_SerializeTo" type="java.lang.String" value="EditorDeProyectosView_jFileChooserAbrirGuardar"/>
+      </AuxValues>
     </Component>
     <Component class="javax.swing.JFileChooser" name="jFileChooserExpImagen">
       <Properties>
